@@ -20,6 +20,7 @@ class UserSeeder extends Seeder
                 'email' => 'isthiaka@gmail.com',
                 'password' => bcrypt('password1'),
                 'role_id' => 1,
+                'numtel' => 777739260
 
             ],
             [
@@ -28,7 +29,7 @@ class UserSeeder extends Seeder
                 'email' => 'aissatou@gmail.com',
                 'password' => bcrypt('password1'),
                 'role_id' => 2,
-
+                'numtel' => 772360279
             ]
         ];
 
